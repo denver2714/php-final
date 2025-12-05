@@ -1,5 +1,6 @@
 <?php
 require 'auth.php';
+#Authentication
 
 $id = $_GET['id'] ?? null;
 if (!$id) {
